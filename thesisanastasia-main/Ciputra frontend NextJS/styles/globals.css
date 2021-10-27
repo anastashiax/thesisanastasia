@@ -7,6 +7,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+
 .nav {
   position: sticky;
   z-index: 100;
@@ -14,6 +15,12 @@ body {
   padding: 30px;
 }
 
+.logo {
+  width: 400px;
+  height: 40px;
+  background-image: url('../images/ciputra-logo.svg');
+  background-size: 400px;
+}
 
 
 .container {
@@ -32,11 +39,7 @@ body {
   width: 60%;
 }
 
-.logo {
-  width: 100px;
-  height: 40px;
-  background-size: 100px;
-}
+
 
 .price-box {
   width: 35%;

@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-google-maps/api": "^2.4.1",
+    "@react-google-maps/api": "^2.5.0",
     "next": "11.1.2",
     "next-sanity": "^0.4.0",
     "react": "17.0.2",

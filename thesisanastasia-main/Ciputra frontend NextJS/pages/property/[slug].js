@@ -20,9 +20,6 @@ const Property = ({
   console.log(images)
   return (
     <div className="container">
-          <div className="logo">
-            <img src="../images/ciputra-logo.svg"/>
-          </div>
       <h1>
         <b>{title}</b>
       </h1>
@@ -48,25 +45,30 @@ const Property = ({
             {isMultiple(telephone)}
           </h4>
           <hr />
+          <h4>{description}</h4>
           <h4>
-            <b>Enhanced Clean</b>
+          <b>Enhanced Clean</b>
           </h4>
           <p>
-            This host is committed to Airbnb's 5-step enhanced cleaning process.
+            Ciputra Group is committed to Ciputra enhanced Hygine and cleanliness process.
           </p>
           <h4>
-            <b>Amenities for everyday living</b>
+            <b> Ciputra for everyday living!</b>
           </h4>
           <p>
-            The host has equipped this place for long stays - kitchen, shampoo,
-            conditioner, hairdryer included.
+            Ciputra Jakarta is one of the most strategic locations. The hotel boasts spacious spring-cleaned guest rooms of flexible configurations plus excellent city views, 
+            the comfortable all-day dining The Gallery Restaurant, the Executive Lounge with the best views, 
+            Large high ceiling ballrooms to cater up to 1,500 delegates, and a fabulous wellness center with a tropical swimming pool.
           </p>
           <h4>
-            <b>House rules</b>
+            <b>Safety Commitments </b>
           </h4>
           <p>
-            This place isn't suitable for pets andthe host does not allow
-            parties or smoking.
+            This place isn't suitable for pets and does not allow parties or smoking. Ciputra Group focuses daily to adhere fully to the highest sanitation, hygiene, health,
+            safety protocol standards as currently stipulated by the World Health Organization and the 10 Health, Safety, Hygiene Commitments. 
+            Ciputra Group strictly apply the new global health and safety standards as your safety and health is our priority. 
+            Ciputra Group have been certified by multiple certification authorities, such as TUVR for HACCP (Hazard Analysis Critical Control Point) certification, 
+            Bureau Veritas for Coronavirus free environment, and ECOLAB worldwide standards compliant for our housekeeping and kitchen operations.
           </p>
         </div>
         <div className="price-box">
@@ -80,7 +82,7 @@ const Property = ({
 
       <hr />
 
-      <h4>{description}</h4>
+     
 
 
       <h2>Location</h2>

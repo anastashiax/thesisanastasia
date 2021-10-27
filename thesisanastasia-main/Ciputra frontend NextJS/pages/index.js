@@ -12,9 +12,6 @@ const Home = ({ properties }) => {
         <div className="main">
           
           <div className="feed-container">
-          <div className="logo">
-            <img src="images/ciputra-logo.svg"/>
-          </div>
             <h2>Daftar Alamat Entitas Anak/Entitas Asosiasi PT Ciputra Development </h2>
             <div className="feed">
               {properties.map((property) => (
