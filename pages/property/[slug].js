@@ -3,7 +3,6 @@ import { isMultiple } from "../../utils"
 import Image from "../../components/Image"
 import Map from "../../components/Map"
 import Link from "next/link"
-import { useRouter } from "next/dist/client/router"
 import { useRouter } from "next/router"
 
 const Property = ({
