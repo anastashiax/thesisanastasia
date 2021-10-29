@@ -3,7 +3,6 @@ import { isMultiple } from "../../utils"
 import Image from "../../components/Image"
 import Map from "../../components/Map"
 import Link from "next/link"
-import { useRouter } from "next/router"
 
 const Property = ({
   title,
@@ -35,7 +34,7 @@ const Property = ({
       </div>
 
       <div className="section">
-        <div className="information">
+        <div className="information"> 
           <h2>
             <b>
               {propertyType} hosted by {adminhost?.name}
@@ -94,11 +93,6 @@ const Property = ({
 
 export const getServerSideProps = async (pageContext) => {
   const pageSlug = pageContext.query.slug
-
-  const router = useRouter()
-  if (router.isFallback){
-      return <div>Loading...</div>
-    }
 
   const query = `*[ _type == "property" && slug.current == $pageSlug][0]{
     title,
