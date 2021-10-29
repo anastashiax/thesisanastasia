@@ -13,9 +13,9 @@ const Home = ({ properties }) => {
           
           <div className="feed-container">
             <h2>Daftar Alamat Entitas Anak/Entitas Asosiasi PT Ciputra Development </h2>
-            <div className="feed">
+            <div className="feed" >
               {properties.map((property) => (
-                <Link href={`property/${property.slug.current}`}>
+                <Link key={property.id} href={`property/${property.slug.current}`}>
                   <div key={property.id} className="card">
                     <img src={urlFor(property.mainImage)} />
 

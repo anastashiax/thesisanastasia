@@ -64,7 +64,7 @@ const Property = ({
             <b>Safety Commitments </b>
           </h4>
           <p>
-            This place isn't suitable for pets and does not allow parties or smoking. Ciputra Group focuses daily to adhere fully to the highest sanitation, hygiene, health,
+            Ciputra Group focuses daily to adhere fully to the highest sanitation, hygiene, health,
             safety protocol standards as currently stipulated by the World Health Organization and the 10 Health, Safety, Hygiene Commitments. 
             Ciputra Group strictly apply the new global health and safety standards as your safety and health is our priority. 
             Ciputra Group have been certified by multiple certification authorities, such as TUVR for HACCP (Hazard Analysis Critical Control Point) certification, 

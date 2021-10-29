@@ -43,7 +43,7 @@ const DashboardMap = ({ properties }) => {
       onUnmount={onUnmount}
     >
       {properties.map((property, index) => (
-        <Marker
+        <Marker key={index.toString()}
           position={{
             lat: property?.location?.lat,
             lng: property?.location?.lng,
