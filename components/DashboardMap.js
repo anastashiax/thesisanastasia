@@ -11,7 +11,7 @@ const DashboardMap = ({ properties }) => {
   console.log(properties[0].location?.lat)
   const containerStyle = {
     width: "100%",
-    height: "100vh",
+    height: "210vh",
   }
 
   const center = {
