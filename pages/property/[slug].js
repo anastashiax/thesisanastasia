@@ -1,5 +1,4 @@
 import { sanityClient } from "../../sanity"
-import { isMultiple } from "../../utils"
 import Image from "../../components/Image"
 import Map from "../../components/Map"
 import Link from "next/link"
@@ -41,8 +40,8 @@ const Property = ({
             </b>
           </h2>
           <h4>
-            Address: {address} {isMultiple(address)}, Telephone: {telephone} 
-            {isMultiple(telephone)}
+            Address: {address} , Telephone: {telephone} 
+        
           </h4>
           <hr />
           <h4>{description}</h4>
