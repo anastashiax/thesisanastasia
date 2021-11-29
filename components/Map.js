@@ -4,7 +4,7 @@ import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api"
 const Map = ({ location }) => {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: process.env.googlePlacesAPI,
+    GMAPS_API_KEY: process.env.GMAPS_API_KEY,
   })
 
   console.log("location.lat", location.lat)

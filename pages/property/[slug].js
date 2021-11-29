@@ -13,7 +13,7 @@ const Property = ({
   telephone,
   address,
   description,
-  adminhost,
+  adminhost
 }) => {
 
   console.log(images)
@@ -36,7 +36,7 @@ const Property = ({
         <div className="information"> 
           <h2>
             <b>
-              {propertyType} hosted by {adminhost?.name}
+              {propertyType?.name} hosted by {adminhost?.name}
             </b>
           </h2>
           <h4>
@@ -73,7 +73,10 @@ const Property = ({
         <div className="price-box">
           <h2>Total Asset = Rp. {pricePerAssets}</h2>
 
-          <Link href="https://www.w3schools.com">
+          <Link   href={{
+            pathname: '/',
+            query: { name: '/' },
+          }}>
             <div className="button">Buy now!</div>
           </Link>
         </div>
@@ -96,7 +99,11 @@ export const getServerSideProps = async (pageContext) => {
   const query = `*[ _type == "property" && slug.current == $pageSlug][0]{
     title,
     location,
-    propertyType,
+    propertyType->{
+      _id,
+      name,
+      slug,
+    },
     mainImage,
     images,
     pricePerAssets,

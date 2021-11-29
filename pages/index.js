@@ -8,8 +8,7 @@ const Home = ({ properties }) => {
   return (
     <>
       {properties && (
-        <div className="main">
-          
+        <div className="main">    
           <div className="feed-container">
             <h2>Daftar Alamat Entitas Anak/Entitas Asosiasi PT Ciputra Development </h2>
             <div className="feed" >
